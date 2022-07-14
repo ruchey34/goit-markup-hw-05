@@ -288,7 +288,6 @@ ul{
 }
 .activities-paragraph{
     position: absolute;
-    z-index: 50;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -526,6 +525,7 @@ ul{
     pointer-events: none;  
 }
 .modal{
+    z-index: 100;
     position: absolute;
     top: 50%;
     left: 50%;
