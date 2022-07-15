@@ -80,8 +80,10 @@ ul{
     letter-spacing: 0.02em;
 }
 
-.header-link:hover {
+.header-link:hover,
+.header-link:focus{
     color: var(--animation-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-active{
     position: relative;
@@ -128,12 +130,15 @@ ul{
     letter-spacing: 0.02em;
 }
 
-.address-link:hover{
+.address-link:hover,
+.address-link:focus{
     color: var(--animation-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .envelope-link:hover,
 .envelope-link:focus {
   color: var(--animation-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-envelope {
@@ -150,6 +155,7 @@ ul{
 .tel-link:hover,
 .tel-link:focus {
   color: var(--animation-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-tel {
@@ -220,6 +226,7 @@ ul{
 }
 .hero-btn:hover{
    background-color: var(--animation-button);
+   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .benefits{
     padding-top: 94px;
@@ -386,6 +393,7 @@ ul{
 .social-media-link:hover{
     background: #2196F3;
     color: #FFFFFF;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-icon{
     fill: currentColor;
@@ -431,6 +439,7 @@ ul{
 .client-list-link:focus {
   color: var(--animation-color);
   border-color: var(--animation-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-list-link-icon {
     width: 106px;
@@ -532,8 +541,8 @@ ul{
     transform: translate(-50%, -50%);
     background: #fff;
 
-    min-width: 400px;
-    min-height: 500px;
+    width: 528px;
+    height: 581px;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -544,7 +553,6 @@ ul{
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(50%, -50%);
     width: 30px;
     height: 30px;
     background: #FFFFFF;
@@ -552,6 +560,7 @@ ul{
     border-radius: 50%;
     padding: 0%;
     cursor: pointer;
+    margin: 8px;
 }
 .portfolio{
     padding-top: 94px;
@@ -585,6 +594,7 @@ ul{
 .portfolio-btn:focus {
   background-color: var(--animation-color);
   color: var(--header-bg-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -605,6 +615,7 @@ ul{
 }
 .portfolio-item:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-wrapper{
     padding: 20px 24px;
@@ -653,6 +664,7 @@ ul{
 }
 .portfolio-item:hover .portfolio-img-overlay {
     transform: translateY(0);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-text-overlay{
     font-family: 'Roboto';
