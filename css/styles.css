@@ -78,12 +78,12 @@ ul{
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
 .header-link:focus{
     color: var(--animation-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-active{
     position: relative;
@@ -128,17 +128,20 @@ ul{
     font-size: 14px;
     line-height: 1;
     letter-spacing: 0.02em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover,
 .address-link:focus{
     color: var(--animation-color);
+}
+.envelope-link{
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .envelope-link:hover,
 .envelope-link:focus {
-  color: var(--animation-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--animation-color);
+  
 }
 
 .icon-envelope {
@@ -150,12 +153,12 @@ ul{
 
 .tel-link {
   color: var(--main-text-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-link:hover,
 .tel-link:focus {
   color: var(--animation-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-tel {
@@ -220,13 +223,10 @@ ul{
     margin-left: auto;
     margin-right: auto;
     transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover{
    background-color: var(--animation-button);
-   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .benefits{
     padding-top: 94px;
@@ -388,12 +388,12 @@ ul{
     border-radius: 50%;
     background: #FFFFFF;
     color: #AFB1B8;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-link:focus,
 .social-media-link:hover{
     background: #2196F3;
     color: #FFFFFF;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-icon{
     fill: currentColor;
@@ -434,12 +434,12 @@ ul{
     color: inherit;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-list-link:hover,
 .client-list-link:focus {
   color: var(--animation-color);
   border-color: var(--animation-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-list-link-icon {
     width: 106px;
@@ -586,6 +586,7 @@ ul{
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-btns-item:not(:last-child){
     padding-right: 8px;
@@ -594,7 +595,6 @@ ul{
 .portfolio-btn:focus {
   background-color: var(--animation-color);
   color: var(--header-bg-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -612,10 +612,10 @@ ul{
     flex-basis: calc(100% / 3 - 30px);
     margin-top: 30px;
     margin-left: 30px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-wrapper{
     padding: 20px 24px;
@@ -664,7 +664,6 @@ ul{
 }
 .portfolio-item:hover .portfolio-img-overlay {
     transform: translateY(0);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-text-overlay{
     font-family: 'Roboto';
